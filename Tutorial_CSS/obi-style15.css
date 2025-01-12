@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* this is a img reset to change img from inline to block to remove the space it has underneath like a paragraph */
+img {display: block;}
+
+/* End Reset */
+
+/* Utility Classes */
+span .nowrap {
+    white-space: nowrap;
+}
+
+.offscreen {
+    position: absolute;
+    left: -10000px;
+}
+/* End Utility Classes */
+body {
+    font-family: "Nunito", sans-serif ;
+    min-height: 100vh;
+    
+    
+}
+/* 
+.example {
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+}
+
+.example img {
+    width: 25%;
+    height: auto;
+} */
+
+
+.container {
+    background-color: rgb(200, 200, 156);
+    background-image: url('../Tutorial_CSS/Tutorial_img/freepik__map_pic..png');
+    background-repeat: no-repeat;
+}
+
+.hero {
+    border-bottom: 2px solid #000;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    
+    background-color: hsla(0, 0%, 0%, 0.670)
+}
+
+/* .h1 {
+    font-size: 500px;
+} */
+
+.h1 span {
+    font-size: 500%;
+    display: flex;
+    color: aliceblue;
+    text-shadow: 3px 3px 4px #333;
+    
+}
+
+
+.profile-pic-figure {
+    width: 35%;
+}
+
+.profile-pic-figure img {
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double gray;
+    border-radius: 50%;
+}
+
