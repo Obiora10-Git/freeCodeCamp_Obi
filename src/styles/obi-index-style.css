@@ -39,3 +39,15 @@ li a {
     display: block;
     color: #000;
 }
+
+li a:hover,
+li a:focus {
+    background: #333;
+    color: whitesmoke;
+}
+
+
+
+li:last-child a {
+    border-radius: 0 0 2rem 2rem;
+}
