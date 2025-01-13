@@ -1,0 +1,31 @@
+/* I used the universal selector to reset the margin and padding of the page */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* i used min-height to give the body element a starting height which would allow it to accomodate the entire page  */
+
+body {
+    min-height: 100vh; 
+}
+
+/* the rest were just styled */
+
+h1 {
+    border: 2px dashed blue;
+    width: 60%;
+    font-size: 3rem;
+    padding: 0.5em;
+  }
+
+  main {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 2em;
+    width: 40ch;
+  }
