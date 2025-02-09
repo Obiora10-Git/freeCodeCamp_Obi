@@ -1,0 +1,32 @@
+{
+  "name": "freecodecamp_obi",
+  "version": "1.0.0",
+  "description": "Learning Coding",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Obiora10-Git/freeCodeCamp_Obi.git"
+  },
+  "keywords": [
+    "Learning",
+    "Coding"
+  ],
+  "author": "Obiora Okwara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Obiora10-Git/freeCodeCamp_Obi/issues"
+  },
+  "homepage": "https://github.com/Obiora10-Git/freeCodeCamp_Obi#readme",
+  "devDependencies": {
+    "sass": "^1.84.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2",
+    "autoprefixer": "^10.4.20",
+    "bootstrap": "^5.3.3",
+    "postcss-cli": "^11.0.0"
+  }
+}
